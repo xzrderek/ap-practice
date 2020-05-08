@@ -21,13 +21,7 @@ public class WordScrambler {
         /* to be implemented in part (a) */
 
         String sub1 = word1.substring(0, word1.length() / 2);
-        String sub2;
-
-        if (word1.length() % 2 == 0 || word2.length() % 2 == 0) { // even
-            sub2 = word2.substring(0, word2.length() / 2);
-        } else { // odd
-            sub2 = word2.substring(0, word2.length() / 2 + 1);
-        }
+        String sub2 = word2.substring(word2.length() / 2);
 
         return sub1 + sub2;
 
@@ -37,7 +31,7 @@ public class WordScrambler {
      * @param words an array of String objects Precondition: words.length is even
      * @return an array of String objects created by recombining pairs of strings in
      *         array words Postcondition: the length of the returned array is
-     *         words.length
+     *         words.lengthw
      */
 
     private String[] mixedWords(String[] words) {
