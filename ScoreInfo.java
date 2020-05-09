@@ -29,7 +29,7 @@ public class ScoreInfo {
     public class Stats {
         private ArrayList<ScoreInfo> scoreList;
 
-     public boolean record(int score, bool senior)
+     public boolean record(int score) //bool senior parameter removed
      {
         ScoreInfo newScore = new ScoreInfo(score);
 
