@@ -38,7 +38,7 @@ public class ScoreInfo {
             if(score == s.getScore()) {
                 s.increment();
                 return false;
-            } else if (score > s.getScore()) {
+            } else if (score < s.getScore()) { //fixed inequality sign
                 scoreList.add(i, newScore);
                 return true;
             }
