@@ -78,8 +78,9 @@ public class OnlinePurchaseManager {
     // not shown.
 
     1. public Gizmo getCheapestGizmoByMaker(final String maker) {
-    2. We would need to add a getPrice() method in the Gizmo class.
+    2. We would need to add a getter function getPrice() method in the Gizmo class. Add a new private instance variable of type double to store the price of the Gizmo.
     3. For our getPrice() method, first modify the Gizmo datatype to include price in double type.   Loop through arraylist to find lowest price using getPrice()
+    We would also need to add a double parameter in the constructor of Gizmo to set the price during construction of the object.
         
 
     }

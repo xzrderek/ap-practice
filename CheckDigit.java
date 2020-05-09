@@ -23,8 +23,15 @@ public class CheckDigit {
 
     }
 
+    Check how many times isValid is called with an incorrect check.
 
-    create a counter variable with type int in the isValid class in the else statement to count the number of times false is returned.
+    We would need to set up a private static int counter variable. This is so every method in the class can refer to this variable. 
+    The isValid method will be changed so that before the isValid method returns false, it would increment the counter variable. 
+    It's also good to create a getter method for this counter variable so that this value can be accessed outside the class.
+    
+    // with type int in the isValid class.
+    // We can make this counter variable ++ every time in the else statement when false is returned, counting the number of times an incorrect check is made.
+    // create a counter variable with type int in the isValid class in the else statement to count the number of times false is returned.
     
 
     // There may be variables and methods not shown.
