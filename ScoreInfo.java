@@ -57,12 +57,12 @@ public class ScoreInfo {
 
      }
 
-1. public double getSeniorPercent(int score)
-2. add a private int numSeniors for integer of num of seniors
-3. add a getter method 
+// 1. public double getSeniorPercent(int score)
+// 2. add a private int numSeniors for integer of num of seniors
+// 3. add a getter method 
 
 
-answers from ap csa video
-1. public double getSeniorPercent(int score)
-2. we would need a new private instance variable numSeniors that would gather an integer of the number of seniors that got each score. 
-3. constructor would need to be updated and a new accessor method added to access the numSeniors number.
+// answers from ap csa video
+// 1. public double getSeniorPercent(int score)
+// 2. we would need a new private instance variable numSeniors that would gather an integer of the number of seniors that got each score. 
+// 3. constructor would need to be updated and a new accessor method added to access the numSeniors number.

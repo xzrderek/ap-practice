@@ -77,11 +77,20 @@ public class OnlinePurchaseManager {
     // There may be instance variables, constructors, and methods
     // not shown.
 
-    1. public Gizmo getCheapestGizmoByMaker(final String maker) {
-    2. We would need to add a getter function getPrice() method in the Gizmo class. Add a new private instance variable of type double to store the price of the Gizmo.
-    3. For our getPrice() method, first modify the Gizmo datatype to include price in double type.   Loop through arraylist to find lowest price using getPrice()
-    We would also need to add a double parameter in the constructor of Gizmo to set the price during construction of the object.
+    // 1. public Gizmo getCheapestGizmoByMaker(final String maker) {
+    // 2. We would need to add a getter function getPrice() method in the Gizmo class. Add a new private instance variable of type double to store the price of the Gizmo.
+    // 3. For our getPrice() method, first modify the Gizmo datatype to include price in double type.   Loop through arraylist to find lowest price using getPrice()
+    // We would also need to add a double parameter in the constructor of Gizmo to set the price during construction of the object.
         
+    /**** PART C SAMPLE RESPONSE ****/
+
+    // Header: public Gizmo getCheapestGizmoByMaker(String maker)
+
+    // In order to get the cheapest Gizmo by a particular maker, the Gizmo class would need 
+    // to add a new private instance variable of type double to store the price of the Gizmo
+    // and/or include a getter function to return the price of the Gizmo (such as getPrice()).
+    // The constructor of the Gizmo would also change to add a double parameter to set
+    // the price during construction of the object.
 
     }
 

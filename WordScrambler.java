@@ -27,9 +27,9 @@ public class WordScrambler {
 
     }
     // part b.
-    1. private boolean checkValidLength(String word1, String word2)
-    2. we would need the recombine method to be referenced within checkValidLength to produce the word we are comparing to.
-    3. Some local variables include String variables to hold the word returned by recombine. We are then able to compare the lengths of String word1 and String word2 to this new local variable length to return true or false.
+    // 1. private boolean checkValidLength(String word1, String word2)
+    // 2. we would need the recombine method to be referenced within checkValidLength to produce the word we are comparing to.
+    // 3. Some local variables include String variables to hold the word returned by recombine. We are then able to compare the lengths of String word1 and String word2 to this new local variable length to return true or false.
 
     /**
      * @param words an array of String objects Precondition: words.length is even
