@@ -14,9 +14,6 @@ public class SelfDivisor {
     }
 
 
-    // DX
-    // 33Y53451
-
     public static int[] firstNumSelfDivisors(int start, int num) {
 
         int[] selfdivisors = new int [num];
